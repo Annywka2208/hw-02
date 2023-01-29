@@ -7,12 +7,11 @@
 }
 
 :root {
-    --navy-color: color: #404BBF
+    --navy-color: #404BBF
 }
 
 body {
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: 'Roboto',sans-serif;
         color: #434455;
         background: #E5E5E5;
 
@@ -79,35 +78,33 @@ body {
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color:var(--navy-color)
 }
 
-.menu-adress {
+.menu-address {
     font-style: normal;
     color: #434455;
    }
 
-.menu-adress-list {}
+.menu-address-list {}
 
-.menu-adress-item {
-    font-weight: 400;
+.menu-address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
 
-.adress-mail:hover,
-.adress-mail:focus {
-            color:#404BBF;
+.address-mail:hover,
+.address-mail:focus {
+            color:var(--navy-color)
         }
 
-.adress-tel:hover,
-.adress-tel:focus {
-    color:#404BBF;
+.address-tel:hover,
+.address-tel:focus {
+    color:var(--navy-color)
 }
 
-.adress-mail {
-        font-weight: 400;
+.address-mail {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -115,8 +112,7 @@ body {
 }
 
 
-.adress-tel {
-        font-weight: 400;
+.address-tel {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -127,12 +123,11 @@ body {
 /*========================= /HEADER/=======================  */
 
 /* ---------section 1 ----------*/
-.section-one {
+.section-hero {
     background: #2E2F42;
 }
 
-.top-title {
-    font-weight: 700;
+.hero-title {
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
@@ -140,8 +135,9 @@ body {
         color: #FFFFFF;
 }
 
-.top-btn {
-    font-family: inherit;
+.hero-btn {
+    font-family: 'Roboto',
+        sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -153,11 +149,12 @@ body {
     order: 0;
     flex-grow: 0;
     background: #4D5AE5;
+    cursor: pointer;
 }
 
-.top-btn:hover,
-.top-btn:focus {
-    background: #404BBF;;
+.hero-btn:hover,
+.hero-btn:focus {
+    background: #404BBF;
 }
 
 
@@ -179,9 +176,8 @@ body {
 }
 
 .stratgy-text {
-        font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         flex: none;
         order: 1;
@@ -194,7 +190,6 @@ body {
 }
 
 .secondary-title {
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         text-align: center;
@@ -203,7 +198,7 @@ body {
         color: #2E2F42;
 }
 
-.menu-list-dong {}
+.menu-list-doing {}
 
 .menu-item-doing {}
 
@@ -229,7 +224,7 @@ body {
 .photo-name {
         font-weight: 500;
         font-size: 20px;
-        line-height: 24px;
+        line-height: 1.2;
         text-align: center;
         letter-spacing: 0.02em;
         color: #2E2F42;
@@ -239,9 +234,8 @@ body {
 }
 
 .profile {
-        font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         flex: none;
@@ -273,9 +267,8 @@ body {
     background: #2E2F42;
 }
 .footer-text {
-    font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
 }
@@ -308,10 +301,9 @@ body {
 }
 
 .btn-type-pro{
-    width: 68px;
+        width: 68px;
         height: 24px;
-        font-family: 'Roboto';
-        font-style: normal;
+        font-family:inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -327,15 +319,15 @@ body {
 
 .menu-item-btn:hover,
 .menu-item-btn:focus {
-    background: #404BBF;
+    background:var(--navy-color)
 }
 
 .text-btn {
-        font-family: 'Roboto';
-        font-style: normal;
+        font-family:'Roboto',
+            sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
          display: flex;
         align-items: center;
         text-align: center;
@@ -344,7 +336,9 @@ body {
         color: #4D5AE5;
         flex: none;
         order: 0;
-        flex-grow: 0
+        flex-grow: 0;
+        cursor: pointer;
+        
         
         
 }
