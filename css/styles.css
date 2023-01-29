@@ -1,0 +1,350 @@
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+:root {
+    --navy-color: color: #404BBF
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+        color: #434455;
+        background: #E5E5E5;
+
+}
+
+
+
+/*============================ HEADER========================  */
+
+.header-one {}
+
+.top-navigation {}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo-dark-theme {
+    color: #F4F4FD;
+}
+.logo-light-theme {
+    color: #2E2F42;
+}
+
+.logo-span {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+   }
+
+.menu-list {}
+
+.menu-item {
+   
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.menu-adress {
+    font-style: normal;
+    color: #434455;
+   }
+
+.menu-adress-list {}
+
+.menu-adress-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
+.adress-mail:hover,
+.adress-mail:focus {
+            color:#404BBF;
+        }
+
+.adress-tel:hover,
+.adress-tel:focus {
+    color:#404BBF;
+}
+
+.adress-mail {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        color:#434455;
+}
+
+
+.adress-tel {
+        font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color:#434455;
+   
+}
+
+/*========================= /HEADER/=======================  */
+
+/* ---------section 1 ----------*/
+.section-one {
+    background: #2E2F42;
+}
+
+.top-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.top-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: #4D5AE5;
+}
+
+.top-btn:hover,
+.top-btn:focus {
+    background: #404BBF;;
+}
+
+
+/* ----------------section-two----------------- */
+.section-two {}
+
+.menu-list-strategy {}
+
+.menu-item-stategy {}
+
+.subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        order: 0;
+        flex-grow: 0;
+}
+
+.stratgy-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+/* ----------------section-three---------------------- */
+.section-three {
+    background: #E5E5E5;
+}
+
+.secondary-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2E2F42;
+}
+
+.menu-list-dong {}
+
+.menu-item-doing {}
+
+/* -----------------section-four---------------------- */
+.section-four {
+    background: #F4F4FD;
+}
+
+.menu-list-team {}
+
+.menu-item-team {
+   
+}
+
+.photo {
+        background: url;
+            mix-blend-mode: normal;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+}
+
+.photo-name {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.profile {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+.card {
+    background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+}
+.card:hover,
+.card:focus {
+    background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        z-index: 1;
+}
+
+/* =========================footer=======================  */
+.footer-top {
+    background: #2E2F42;
+}
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;
+}
+       
+        
+ /*================ Portfolio================  */
+.card-prof {
+        background: #FFFFFF;
+}
+
+.section-btn-pro {}
+
+.menu-list-btn {}
+
+.menu-item-btn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        width: 116px;
+        height: 48px;
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.btn-type-pro{
+    width: 68px;
+        height: 24px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+         color: #4D5AE5;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.menu-item-btn:hover,
+.menu-item-btn:focus {
+    background: #404BBF;
+}
+
+.text-btn {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+         display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+        background: #E7E9FC;
+        color: #4D5AE5;
+        flex: none;
+        order: 0;
+        flex-grow: 0
+        
+        
+}
